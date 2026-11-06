@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //These are the six test cases abcde and f
+        //These are the six test cases
         Feeder a = new Feeder(500);
         a.simulateOneDay(12);
         System.out.println(a.getCurrentFood());
